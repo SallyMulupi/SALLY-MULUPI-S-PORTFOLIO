@@ -99,7 +99,23 @@ img {
     padding: 6px;
 }
 
-.social {
-    margin-left: 8%;
-    margin-top: 20px;
+.social a {
+    display: block;
+    font-size: 1.9rem;
+    color: blue;
+    padding: 1rem 0;
+    margin-left: 25px;
+}
+
+.social a i {
+    color: blue;
+    padding-right: .5rem;
+}
+
+.social a:hover {
+    color: black;
+}
+
+.social a:hover i {
+    padding-right: 2rem;
 }
